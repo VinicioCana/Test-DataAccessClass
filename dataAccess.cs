@@ -46,7 +46,7 @@ public class Test4
                 rows = command.ExecuteNonQuery();
             }
 
-            return rowsAffected;
+            return rows;
         }
 
         // Devuelve el número de filas que devolveria el select del query que recibe como parámetro de entrada.
